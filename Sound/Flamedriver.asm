@@ -26,11 +26,11 @@
 SonicDriverVer			= 5
 ; Set the following to non-zero to use all S2 DAC samples, or to zero otherwise.
 ; The S1 samples are a subset of this.
-use_s2_samples			= 1
+use_s2_samples			= 0
 ; Set the following to non-zero to use all S3D DAC samples, or to zero
 ; otherwise. Most of the S3D samples are also present in S3/S&K, but
 ; there are two samples specific to S3D.
-use_s3d_samples			= 1
+use_s3d_samples			= 0
 ; Set the following to non-zero to use all S3 DAC samples,
 ; or to zero otherwise.
 use_s3_samples			= 1

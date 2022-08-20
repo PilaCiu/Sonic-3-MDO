@@ -1,5 +1,5 @@
 s3p31_Header:
-	smpsHeaderStartSong 3, 1
+	smpsHeaderStartSong 3
 	smpsHeaderVoice     s3p31_Voices
 	smpsHeaderChan      $06, $03
 	smpsHeaderTempo     $01, $05
@@ -10,7 +10,7 @@ s3p31_Header:
 	smpsHeaderFM        s3p31_FM3,	$00, $10
 	smpsHeaderFM        s3p31_FM4,	$00, $10
 	smpsHeaderFM        s3p31_FM5,	$00, $10
-	smpsHeaderPSG       s3p31_PSG1,	$F4, $07, $00, $00
+	smpsHeaderPSG       s3p31_PSG1,	$F4, $07, $00, sTone_09
 	smpsHeaderPSG       s3p31_PSG2,	$00, $02, $00, $00
 	smpsHeaderPSG       s3p31_PSG3,	$00, $00, $00, sTone_03
 
@@ -172,7 +172,6 @@ s3p31_Jump00:
 ; PSG1 Data
 s3p31_PSG1:
 	dc.b	nRst, $02
-	smpsPSGvoice        sTone_09
 
 s3p31_Jump05:
 	dc.b	nC4, $06, nRst, nCs4, nRst, nC4, nG4, nFs4, nF4, nRst, nE4, nEb4

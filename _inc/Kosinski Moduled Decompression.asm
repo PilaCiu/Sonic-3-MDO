@@ -268,8 +268,9 @@ Process_Kos_Queue_RLELoop:
 Process_Kos_Queue_SeparateRLE2:
 		move.b	(a0)+,d1
 		beq.s	Process_Kos_Queue_EndReached
-		cmpi.b	#1,d1
-		beq.w	Process_Kos_Queue_Loop
+		addq.b  #1,d1
+                beq.w	Process_Kos_Queue_Loop
+                subq.b  #1,d1
 		move.b	d1,d3
 		bra.s	Process_Kos_Queue_RLELoop
 ; ---------------------------------------------------------------------------
