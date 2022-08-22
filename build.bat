@@ -1,7 +1,5 @@
 @ECHO OFF
 
-pushd "%~dp0\.."
-
 REM // make sure we can write to the file sonic3k.bin
 REM // also make a backup to sonic3k.prev.bin
 IF NOT EXIST sonic3k.bin goto LABLNOCOPY

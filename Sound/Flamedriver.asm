@@ -33,7 +33,7 @@ use_s2_samples			= 0
 use_s3d_samples			= 0
 ; Set the following to non-zero to use all S3 DAC samples,
 ; or to zero otherwise.
-use_s3_samples			= 1
+use_s3_samples			= 0
 ; Set the following to non-zero to use all S&K DAC samples,
 ; or to zero otherwise.
 use_sk_samples			= 1

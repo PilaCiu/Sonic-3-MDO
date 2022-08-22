@@ -5,10 +5,10 @@ s3p8_Header:
 	smpsHeaderTempo     $01, $25
 
 	smpsHeaderDAC       s3p8_DAC
-	smpsHeaderFM        s3p8_FM1,	$0C, $13
+        smpsHeaderFM        s3p8_FM4,	$18, $0C
 	smpsHeaderFM        s3p8_FM2,	$0C, $13
 	smpsHeaderFM        s3p8_FM3,	$18, $18
-	smpsHeaderFM        s3p8_FM4,	$18, $0C
+	smpsHeaderFM        s3p8_FM1,	$0C, $13
 	smpsHeaderFM        s3p8_FM5,	$0C, $18
 	smpsHeaderPSG       s3p8_PSG1,	$F4, $05, $00, sTone_0A
 	smpsHeaderPSG       s3p8_PSG2,	$F4, $05, $00, sTone_0A

@@ -180,7 +180,7 @@
 		dc.l Pal_AIZ
 		dc.w Normal_palette_line_2&$FFFF
 		dc.w $17
-		dc.l Pal_SOZ1_Clone
+		dc.l Pal_SOZ1
 		dc.w Normal_palette_line_2&$FFFF
 		dc.w $17
 		dc.l Pal_SOZ2_Extra
